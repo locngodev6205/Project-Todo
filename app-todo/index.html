@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📋 Team Todo App</h1>
+    <p class="subtitle">Dự án nhóm - Git Workshop</p>
+  </header>
+
+  <main>
+    <section class="input-section">
+      <input type="text" id="taskInput" placeholder="Nhập công việc mới..." />
+      <button onclick="addTask()">Thêm</button>
+    </section>
+
+    <section class="task-list">
+      <h2>Danh sách công việc</h2>
+      <ul id="taskList">
+        <li class="task-item">Thiết kế giao diện <span class="tag">UI</span></li>
+        <li class="task-item">Viết logic JavaScript <span class="tag">JS</span></li>
+        <li class="task-item">Kiểm tra trình duyệt <span class="tag">Test</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Được xây dựng bởi: <span id="team-name">Team Git</span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
